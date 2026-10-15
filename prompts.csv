@@ -1,0 +1,21 @@
+ID,prompt,category
+1,Describe the scene,Scene Description
+2,Summarize the environment,Scene Description
+3,List all visible power-line components.,Object Enumeration
+4,What infrastructure components are visible?,Object Enumeration
+5,Count the number of insulators visible.,Object Enumeration
+6,"Is a transmission tower present? If yes, specify the type.",Object Enumeration
+7,"Is the infrastructure located in a residential, rural, or industrial area?",Surroundings & Context Awareness
+8,"Is there fog, rain, or glare affecting inspection quality?",Surroundings & Context Awareness
+9,"Is there fog, rain, or glare affecting inspection quality?",Surroundings & Context Awareness
+10,Are there roads or buildings nearby?,Surroundings & Context Awareness
+11,Is there any visible defect in this image?,Defect Detection
+12,Is corrosion visible?,Defect Detection
+13,Is there a broken or cracked insulator?,Defect Detection
+14,Is there any mechanical damage?,Defect Detection
+15,Is vegetation encroaching on the power line?,Defect Detection
+16,Does the line appear sagging?,Defect Detection
+17,Is the clearance between conductor and ground safe?,Defect Detection
+18,Is there any missing component on infraustructure?,Defect Detection
+19,Where is the transmission tower in the scene?,Localization
+20,Where is the location of powerlines in the scene?,Localization

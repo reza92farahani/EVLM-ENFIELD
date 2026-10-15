@@ -1,0 +1,4 @@
+UAV imagery (captured with a DJI Matrice 210 V2 + Zenmuse Z30 camera at up to 1920×1080) covering diverse power line component and defect categories, used to extend defect coverage for fine-tuning and qualitative evaluation. Sourced from:
+  > Vieira e Silva, André Luiz Buarque, et al. "Insplad: A dataset and benchmark for power line asset inspection in UAV images." International journal of remote sensing (2023).
+
+  `train_gi_n1.jpg` (1080×1080) is the sample image included here, a component-level crop from the dataset's classification split. Note that [`Fine-tuning/powerline_vqa_dataset_insplad_enh.json`](Fine-tuning/powerline_vqa_dataset_insplad_enh.json) references these images as `InsPLAD/<filename>.jpg`, so if you populate `Data/Image/` with the full InsPLAD set, nest it as `Data/Image/InsPLAD/...` to match.

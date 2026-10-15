@@ -1,0 +1,4 @@
+4-second UAV video segments (720×480 @ 30 fps, 120 frames/segment) that we assembled with `ffmpeg` from the image frames released with the power line inspection dataset below. The source data is published as sequential PNG frames (with YOLO-format labels and segmentation masks), organized by environment. Consecutive frames were concatenated into short clips for this pipeline. Frames are drawn from 20 sequences across 8 heterogeneous power line environments. Source:
+  > Xing, J., Cioffi, G., Hidalgo-Carrió, J., & Scaramuzza, D. (2023, October). Autonomous power line inspection with drones via perception-aware MPC. In 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), IEEE.
+
+  `powerline_1_forest_segment_00.mp4` is the sample clip included here, encoded from the `power_line_1_forest` frames; it is the default input for [`Frame_Filtering.py`](EVLM_Components/Frame_Filtering.py).
